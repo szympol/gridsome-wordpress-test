@@ -2,6 +2,7 @@
   <div>
     <h2 v-html="post.title" />
     <img
+      v-if="post.featuredMedia.mediaDetails"
       :src="post.featuredMedia.mediaDetails.sizes.medium.sourceUrl"
       :width="post.featuredMedia.mediaDetails.sizes.medium.width"
       :alt="post.featuredMedia.altText"
