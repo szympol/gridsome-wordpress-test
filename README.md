@@ -3,7 +3,9 @@
 ## Install
 
 `git clone https://github.com/szympol/gridsome-wordpress-test.git gridsome-wordpress-test`
+
 `cd gridsome-wordpress-test`
+
 `yarn install`
 
 ## Guide
